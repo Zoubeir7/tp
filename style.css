@@ -1,0 +1,78 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    border: 1px solid #ccc;
+    border-radius: 0 0 40px;
+    box-shadow: 0 5px 5px #a02f2f;
+    border-collapse: collapse;
+    margin: 40px;
+    align-items: center;
+    padding: 15px;
+    width: 80%;
+
+}
+
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 0 0 30px;
+    box-shadow: 0 5px 5px #a02f2f;
+    margin-top: 225px;
+    margin-bottom: 200px;
+    height: 70px;
+    margin: 40px;
+    font-size: 40px;
+    width: 80%;
+}
+
+p {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 0;
+}
+
+.c1 {
+    grid-column: 1 / span 17;
+    grid-row: 1;
+    width: 56px;
+}
+
+.c2 {
+    grid-column: 1 / span 11;
+    grid-row: 2;
+    width: 56px;
+}
+
+.c3 {
+    grid-column: 2 / span 11;
+    grid-row: 2;
+    width: 56px;
+}
+
+.c11 {
+    grid-column: 1 / span 11;
+    grid-row: 3;
+    width: 56px;
+}
+
+.c12 {
+    grid-column: 2 / span 11;
+    grid-row: 3;
+    width: 56px;
+}
+
+.grid-item:hover {
+    cursor: pointer;
+    /* Change le curseur en une main */
+    background-color: rgba(189, 14, 14, 0.37);
+    /* Change la couleur de fond en rouge */
+    color: white;
+    /* Change la couleur du texte en blanc */
+}
